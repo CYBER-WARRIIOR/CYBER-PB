@@ -130,7 +130,7 @@ global.menuvid = 'https://telegra.ph/file/173eb5a7684faa975f036.mp4'
 global.Princesc = 'https://github.com/CYBER-WARRIIOR/THE-CYBER-WARRIIOR-BOT' 
 global.princeyt = 'https://youtube.com/'
 global.Princelog = 'https://i.imgur.com/ur24PoA.jpg'
-global.thumb = fs.readFileSync('./Assets/cyberworrior.jpg')
+global.thumb = fs.readFileSync('./Assets/Prince.png')
 //💌------------------------------------------💌
 
 
