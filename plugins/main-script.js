@@ -3,7 +3,7 @@ import { join } from 'path';
 import axios from 'axios'; 
 
 let handler = async function (m, { conn, __dirname }) {
-  const githubRepoURL = 'https://github.com/PRINCE-GDS/THE-PRINCE-BOT';
+  const githubRepoURL = 'https://github.com/CYBER-WARRIIOR/CYBER-PB';
 
   try {
   
@@ -16,7 +16,7 @@ let handler = async function (m, { conn, __dirname }) {
 
       // Format the repository information with emojis
       const formattedInfo = `
-╭⊱✫🛡️ᑭᖇIᑎᑕᕮ ᗷOT🛡️✫⊱╮
+╭━༻𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹༺⊰━─
 │✫ - *📂Repository Name: ${repoData.name}*
 │✫ - *📃Description: ${repoData.description}*
 │✫ - *🛡️Owner: ${repoData.owner.login}*
