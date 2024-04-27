@@ -64,6 +64,19 @@ let str = ` ╭━༻𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹༺⊰━�
 
     const { result, key, timeout } = await conn.sendMessage(m.chat, { video: { url: menuvid }, caption: infoText.trim(),  gifPlayback: true,
   gifAttribution: 0}, { quoted: m})
+  
+  // Save the menu options to gurumenu
+  conn.gurumenu[m.sender] = {
+    result,
+    key,
+    timeout: setTimeout(() => {
+      conn.sendMessage(m.chat, {
+          delete: key
+      });
+      delete conn.gurumenu[m.sender];
+  }, 180 * 1000),
+  };
+  };
 
 }
 handler.help = ['main']
