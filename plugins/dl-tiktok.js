@@ -13,7 +13,7 @@ const handler = async (m, {conn, text, args, usedPrefix, command}) => {
   try {
     m.react(rwait)
     const dataFn = await conn.getFile(`${CFROSAPI}/api/tiktokv2?url=${args[0]}`);
-    const desc1n = `*_Here is your requested video_*`;
+    const desc1n = `*_Here is your requested video_😊*`;
     await conn.sendMessage(m.chat, {video: dataFn.data, caption: desc1n}, {quoted: m});
  m.react(done)
   } catch (ee1) {
@@ -62,7 +62,7 @@ handler.tags = ['downloader'];
 export default handler;
 
 async function tiktokdlF(url) {
-  if (!/tiktok/.test(url)) return `_*PRINCE TIKTOK DL*_\n\n*_Past a tiktok link._*\n\n*_Example:_* _${usedPrefix + command} Url here_`;
+  if (!/tiktok/.test(url)) return `_*CYBER TIKTOK DL*_\n\n*_Past a tiktok link._*\n\n*_Example:_* _${usedPrefix + command} Url here_`;
   const gettoken = await axios.get('https://tikdown.org/id');
   const $ = cheerio.load(gettoken.data);
   const token = $('#download-form > input[type=hidden]:nth-child(2)').attr( 'value' );
