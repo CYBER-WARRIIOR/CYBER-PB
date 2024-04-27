@@ -300,9 +300,6 @@ let groupmenu = `
    
     global.fcontact = { key: { fromMe: false, participant: `0@s.whatsapp.net`, remoteJid: 'status@broadcast' }, message: { contactMessage: { displayName: `${name}`, vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:${name}\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}}
     const infoText = `
-     ╭━༻𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹༺⊰━─
-    
-     *${greating}* 
 
      ╭━༻𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹༺⊰━─
 
@@ -408,49 +405,4 @@ let groupmenu = `
   handler.command = /^(menu)$/i;
   handler.limit = true;
   export default handler;
-  
-  
-  
-  
-  function pickRandom(list) {
-    return list[Math.floor(Math.random() * list.length)]
-   }
-   
-   const more = String.fromCharCode(8206)
-   const readMore = more.repeat(4001)
-   
-   function clockString(ms) {
-    let h = isNaN(ms) ? "--" : Math.floor(ms / 3600000)
-    let m = isNaN(ms) ? "--" : Math.floor(ms / 60000) % 60
-    let s = isNaN(ms) ? "--" : Math.floor(ms / 1000) % 60
-    return [h, " H ", m, " M ", s, " S "].map(v => v.toString().padStart(2, 0)).join("")
-   }
-   
-   function clockStringP(ms) {
-    let ye = isNaN(ms) ? "--" : Math.floor(ms / 31104000000) % 10
-    let mo = isNaN(ms) ? "--" : Math.floor(ms / 2592000000) % 12
-    let d = isNaN(ms) ? "--" : Math.floor(ms / 86400000) % 30
-    let h = isNaN(ms) ? "--" : Math.floor(ms / 3600000) % 24
-    let m = isNaN(ms) ? "--" : Math.floor(ms / 60000) % 60
-    let s = isNaN(ms) ? "--" : Math.floor(ms / 1000) % 60
-    return [ye, " *Years 🗓️*\n", mo, " *Month 🌙*\n", d, " *Days ☀️*\n", h, " *Hours 🕐*\n", m, " *Minute ⏰*\n", s, " *Second ⏱️*"].map(v => v.toString().padStart(2, 0)).join("")
-   }
-   
-   function ucapan() {
-    const time = moment.tz("Asia/Kolkata").format("HH")
-    let res = "Good morning ☀️"
-    if (time >= 4) {
-     res = "Good Morning 🌄"
-    }
-    if (time >= 10) {
-     res = "Good Afternoon ☀️"
-    }
-    if (time >= 15) {
-     res = "Good Afternoon 🌇"
-    }
-    if (time >= 18) {
-     res = "Good Night 🌙"
-    }
-    return res
-   }
-  
+ 
