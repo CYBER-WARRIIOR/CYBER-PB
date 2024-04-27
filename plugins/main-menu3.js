@@ -526,7 +526,7 @@ import {
   
   handler.help = ["play"];
   handler.tags = ["main"];
-  handler.command = /^(menu3)$/i;
+  handler.command = /^(menu)$/i;
   handler.limit = false;
   export default handler;
   
