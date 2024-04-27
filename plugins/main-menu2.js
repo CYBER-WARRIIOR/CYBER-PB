@@ -68,7 +68,7 @@ let str = ` ╭━༻𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹༺⊰━�
 }
 handler.help = ['main']
 handler.tags = ['group']
-handler.command = ['menu3', 'help','h','commands'] 
+handler.command = ['menu', 'help','h','commands'] 
 
 export default handler
 function clockString(ms) {
