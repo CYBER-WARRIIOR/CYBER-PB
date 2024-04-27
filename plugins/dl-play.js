@@ -19,7 +19,7 @@ const handler = async (m, {
     conn.GURUPLAY = conn.GURUPLAY ? conn.GURUPLAY : {};
     await conn.reply(m.chat, wait, m);
     const result = await searchAndDownloadMusic(text);
-    const infoText = `🎧🎼『 *ᴘʀɪɴᴄᴇ ᴘʟᴀʏᴇʀ* 』🎼🎧
+    const infoText = `🎧🎼『 *𝑪𝒀𝑩𝑬𝑹 ᴘʟᴀʏᴇʀ* 』🎼🎧
 
     
    
@@ -106,9 +106,9 @@ handler.before = async (m, {
     }
 };
 
-handler.help = ["play"];
+handler.help = ["song"];
 handler.tags = ["downloader"];
-handler.command = /^(play)$/i;
+handler.command = /^(song)$/i;
 handler.limit = false;
 export default handler;
 
