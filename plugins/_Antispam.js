@@ -32,7 +32,7 @@ export async function before(m) {
     // Calculate the time difference since the last message from this sender.
     const timeDifference = now - this.spam[m.sender].lastspam;
 
-    // If the time difference is less than 10 seconds, it means the sender is sending messages too quickly.
+    // If the time difference less than 10 seconds, it means the sender is sending messages too quickly.
     if (timeDifference < 10000) {
         // Increment the sender's spam count.
         this.spam[m.sender].count++;
