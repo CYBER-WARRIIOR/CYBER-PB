@@ -46,7 +46,7 @@ for (let i = 0; i < img.length; i++) {
           for (const {url} of resultssss) await conn.sendFile(m.chat, url, 'error.mp4', txt4, m);
         } catch {
           try {
-            let cap = 'Here is your insta video';
+            let cap = 'Here is Your insta video';
             const human = await fetch(`https://api.lolhuman.xyz/api/instagram?apikey=${lolkeysapi}&url=${args[0]}`);
             const json = await human.json();
             const videoig = json.result;
