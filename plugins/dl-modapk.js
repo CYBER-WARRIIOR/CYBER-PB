@@ -3,7 +3,7 @@ import { download } from 'aptoide-scraper';
 let handler = async (m, { conn, usedPrefix: prefix, command, text }) => {
   try {
     if (command === 'modapk', 'apk', 'app') {
-      if (!text) throw `*[❗] Please provide the APK Name you want to download.*`;
+      if (!text) throw `*[❗] Please provide the App Name you want to download.*`;
       m.react(rwait)
       await conn.reply(m.chat, global.wait, m);
       let data = await download(text);
