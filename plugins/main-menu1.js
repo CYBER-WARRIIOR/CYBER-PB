@@ -335,147 +335,235 @@ import {
   ◈ .stokings
   ◈ .topless
   ◈ .beach
-  ◈ .bunnygirl
-  ◈ .bunnyear
-  ◈ .idol
-  ◈ .vampire
-  ◈ .gun
-  ◈ .maid
-  ◈ .bra
-  ◈ .nobra
-  ◈ .bikini
-  ◈ .whitehair
-  ◈ .blonde
-  ◈ .pinkhair
-  ◈ .bed
-  ◈ .ponytail
-  ◈ .nude
-  ◈ .dress
-  ◈ .underwear
-  ◈ .foxgirl
-  ◈ .uniform
-  ◈ .skirt
-  ◈ .sex
-  ◈ .sex2
-  ◈ .sex3
-  ◈ .breast
-  ◈ .twintail
-  ◈ .spreadpussy
-  ◈ .tears
-  ◈ .seethrough
-  ◈ .breasthold
-  ◈ .drunk
-  ◈ .fateseries
-  ◈ .spreadlegs
-  ◈ .openshirt
-  ◈ .headband
-  ◈ .food
-  ◈ .close
-  ◈ .tree
-  ◈ .nipples
-  ◈ .erectnipples
-  ◈ .horns
-  ◈ .greenhair
-  ◈ .wolfgirl
-  ◈ .catgirl
-  ◈ .nsfw
-  ◈ .ass
-  ◈ .boobs
-  ◈ .lesbian
-  ◈ .pussy
-  ◈ .pack
-  ◈ .xvid
-  ◈ .xnxx
+let groupmenu = `
+   ✦ ───『 *ɢʀᴏᴜᴘ* 』─── ⚝
+  ◈ .ɢᴇᴛʙɪᴏ <@ᴛᴀɢ/ʀᴇᴘʟʏ>  Ⓛ
+  ◈ .ᴀɴɪᴍᴇϙᴜᴏᴛᴇ
+  ◈ .Sᴇᴛᴅᴇsᴄ <ᴛᴇxᴛ>
+  ◈ .sᴇᴛɴᴀᴍᴇ <ᴛᴇxᴛ>
+  ◈ .ᴀᴅᴅ
+  ◈ .ᴅᴇʟᴇᴛᴇ
+  ◈ .ᴅᴇʟᴡᴀʀɴ @ᴜsᴇʀ
+  ◈ .ᴅᴇᴍᴏᴛᴇ (@ᴛᴀɢ)
+  ◈ .ɪɴғᴏɢᴘ
+  ◈ .ʜɪᴅᴇᴛᴀɢ
+  ◈ .ɪɴᴠɪᴛᴇ <923xxx>
+  ◈ .ᴋɪᴄᴋ @ᴜsᴇʀ
+  ◈ .ʟɪɴᴋ
+  ◈ .ᴘᴏʟʟ ϙᴜᴇsᴛɪᴏɴ|ᴏᴘᴛɪᴏɴ|ᴏᴘᴛɪᴏɴ
+  ◈ .ᴘʀᴏғɪʟᴇ
+  ◈ .ᴘʀᴏᴍᴏᴛᴇ
+  ◈ .ʀᴇsᴇᴛʟɪɴᴋ
+  ◈ .sᴇᴛʙʏᴇ <ᴛᴇxᴛ>
+  ◈ .ɢʀᴏᴜᴘ *ᴏᴘᴇɴ/ᴄʟᴏsᴇ*
+  ◈ .sᴇᴛᴡᴇʟᴄᴏᴍᴇ <ᴛᴇxᴛ>
+  ◈ .sɪᴍᴜʟᴀᴛᴇ <ᴇᴠᴇɴᴛ> @ᴜsᴇʀ
+  ◈ .sᴛᴀғғ
+  ◈ .ᴛᴀɢᴀʟʟ
+  ◈ .ᴛᴏᴛᴀɢ
+  ◈ .ᴡᴀʀɴ @ᴜsᴇʀ
+  ◈ .ᴡᴀʀɴs
+  ◈ .ᴍᴀɪɴ
   ╰──────────⳹`
+  
+  let ownermenu = `
+  ✦ ───『 *ᴏᴡɴᴇʀ* 』─── ⚝
+  ◈ .ᴀᴅᴅᴘʀᴇᴍ <@ᴛᴀɢ>
+  ◈ .ᴀᴅᴅᴏᴡɴᴇʀ @ᴜsᴇʀ
+  ◈ .ᴀʟʟᴏᴡ <@ᴛᴀɢ>
+  ◈ .HEROKU
+  ◈ .ʙᴀɴ @ᴜsᴇʀ
+  ◈ .ʙᴀɴᴄʜᴀᴛ
+  ◈ .ᴛx
+  ◈ .ʙʀᴏᴀᴅᴄᴀsᴛɢʀᴏᴜᴘ <ᴛᴇxᴛ>
+  ◈ .ʙᴄɢᴄ <ᴛᴇxᴛ>
+  ◈ .ᴄʟᴇᴀʀᴛᴍᴘ
+  ◈ .ᴅᴇʟᴇxᴘɪʀᴇᴅ
+  ◈ .ᴅᴇʟᴘʀᴇᴍ @ᴜsᴇʀ
+  ◈ .ʀᴇᴍᴏᴠᴇᴏᴡɴᴇʀ @ᴜsᴇʀ
+  ◈ .sᴇᴛᴘᴘʙᴏᴛғᴜʟʟ
+  ◈ .ɢᴇᴛᴘʟᴜɢɪɴ <ɴᴀᴍᴇ ғɪʟᴇ>
+  ◈ .ɢᴇᴛғɪʟᴇ <ɴᴀᴍᴇ ғɪʟᴇ>
+  ◈ .ᴊᴏɪɴ <ᴄʜᴀᴛ.ᴡʜᴀᴛsᴀᴘᴘ.ᴄᴏᴍ> <ᴅɪᴀs>
+  ◈ .ʀᴇsᴇᴛ <54xxx>
+  ◈ .ʀᴇsᴇᴛᴘʀᴇғɪx
+  ◈ .ʀᴇsᴛᴀʀᴛ
+  ◈ ..sᴇᴛᴘʀᴇғɪx
+  ◈ ..sᴇᴛᴘʀᴇғɪx [sʏᴍʙᴏʟ]
+  ◈ .ᴜɴʙᴀɴ @ᴜsᴇʀ
+  ◈ .ᴜɴʙᴀɴᴄʜᴀᴛ
+  ◈ .ᴜᴘᴅᴀᴛᴇ
+  ◈ .ᴄᴏɴғɪɢ
+  ◈ .ʟɪsᴛʙᴀɴ
+  ◈ .ᴅᴇʟᴇᴛᴇᴘʟᴜɢɪɴ <ɴᴀᴍᴇ>
+  ◈ .ᴅɪғᴜᴍɪɴᴀʀ2
+  ◈ .ʜᴏʀɴʏᴄᴀʀᴅ
+  ◈ .ʜᴏʀɴʏʟɪᴄᴇɴsᴇ
+  ◈ .ɢғx1
+  ◈ .ɢғx2
+  ◈ .ɢғx3
+  ◈ .ɢғx4
+  ◈ .ɢғx5
+  ◈ .ɢғx6
+  ◈ .ɢғx7
+  ◈ .ɢғx8
+  ◈ .ɢғx9
+  ◈ .ɢғx10
+  ◈ .ɢғx11
+  ◈ .ɢғx12
+  ◈ .sɪᴍᴘᴄᴀʀᴅ
+  ◈ .ɪᴛssᴏsᴛᴜᴘɪᴅ
+  ◈ .ɪss
+  ◈ .sᴛᴜᴘɪᴅ
+  ◈ .ᴛᴡᴇᴇᴛ <ᴄᴏᴍᴍᴇɴᴛ>
+  ◈ .ʟᴏʟɪᴄᴏɴ
+  ◈ .ʏᴛᴄᴏᴍᴍᴇɴᴛ <ᴄᴏᴍᴍᴇɴᴛ>
+  ╰──────────⳹`
+  
+  let stickermenu = `
+  🛡️ ───『 *sᴛɪᴄᴋᴇʀ* 』─── 🛡️
+  ◈ .ᴇᴍᴏᴊɪᴍɪx <ᴇᴍᴏᴊɪ+ᴇᴍᴏᴊɪ>
+  ◈ .ɢᴇᴛsᴛɪᴄᴋᴇʀ
+  ◈ .sᴍᴀᴋᴇʀ
+  ◈ .sᴛɪᴄᴋᴇʀᴡɪᴛʜᴍᴇᴍᴇ (ᴄᴀᴘᴛɪᴏɴ|ʀᴇᴘʟʏ ᴍᴇᴅɪᴀ)
+  ◈ .sᴡᴍᴇᴍᴇ <ᴜʀʟ>
+  ◈ .sᴡᴍ(ᴄᴀᴘᴛɪᴏɴ|ʀᴇᴘʟʏ ᴍᴇᴅɪᴀ)
+  ◈ .sғᴜʟʟ
+  ◈ .ᴛᴏɪᴍɢ <sᴛɪᴄᴋᴇʀ>
+  ◈ .ᴛᴏᴠɪᴅ
+  ◈ .ᴛʀɪɢɢᴇʀ <@ᴜsᴇʀ>
+  ◈ .ᴛᴛᴘ
+  ◈ .ᴛᴛᴘ2
+  ◈ .ᴛᴛᴘ3
+  ◈ .ᴛᴛᴘ4
+  ◈ .ᴛᴛᴘ5
+  ◈ .ᴀᴛᴛᴘ
+  ◈ .ᴀᴛᴛᴘ2
+  ◈ .ᴀᴛᴛᴘ3
+  ◈ .ᴛᴀᴋᴇ <ɴᴀᴍᴇ>|<ᴀᴜᴛʜᴏʀ>
+  ╰──────────⳹`
+  
+  let audiomenu = `
+  🛡️ ───『 *ᴀᴜᴅɪᴏ* 』─── 🛡️
+  ◈ .ʙᴀss [ᴠɴ]
+  ◈ .ʙʟᴏᴡɴ [ᴠɴ]
+  ◈ .ᴅᴇᴇᴘ [ᴠɴ]
+  ◈ .ᴇᴀʀʀᴀᴘᴇ [ᴠɴ]
+  ◈ .ғᴀsᴛ [ᴠɴ]
+  ◈ .ғᴀᴛ [ᴠɴ]
+  ◈ .ɴɪɢʜᴛᴄᴏʀᴇ [ᴠɴ]
+  ◈ .ʀᴇᴠᴇʀsᴇ [ᴠɴ]
+  ◈ .ʀᴏʙᴏᴛ [ᴠɴ]
+  ◈ .sʟᴏᴡ [ᴠɴ]
+  ◈ .sᴍᴏᴏᴛʜ [ᴠɴ]
+  ◈ .ᴛᴜᴘᴀɪ [ᴠɴ]
+  ╰──────────⳹`
+  
+  
+  let newsmenu = `
+  ✦ ───『 *ɴᴇᴡs* 』─── ⚝
+  ◈ .ɴᴇᴡs
+  ◈ .ᴛᴇᴄʜɴᴇᴡs
+  ◈ .ɴᴅᴛᴠ
+  ╰──────────⳹
+  `
   
   let toolsmenu = `
-  ✦ ───『 *tools* 』─── ⚝
-  ◈ .nowa
-  ◈ .qr <text>
-  ◈ .qrcode <text>
-  ◈ .style <key> <text>
-  ◈ .weather *<place>*
-  ◈ .dehaze
-  ◈ .recolor
-  ◈ .hdr
-  ◈ .length <amount>
-  ◈ .tinyurl <link>
-  ◈ .shorten <link>
-  ◈ .tempmail
-  ◈ .shazam
-  ◈ .cal <equation>
-  ◈ .carbon <code>
-  ◈ .define <word>
-  ◈ .element
-  ◈ .google
-  ◈ .itunes
-  ◈ .lyrics
-  ◈ .imdb
-  ◈ .course
-  ◈ .randomcourse
-  ◈ .readmore <text1>|<text2>
-  ◈ .readvo
-  ◈ .removebg
-  ◈ .ss <url>
-  ◈ .ssf <url>
-  ◈ .subreddit
-  ◈ .telesticker  Ⓛ
-  ◈ .tourl
-  ◈ .translate <lang> <text>
-  ◈ .true
-  ◈ .tts <lang> <task>
-  ◈ .wa
-  ◈ .wikipedia
-  ╰──────────⳹`
+  🛡️ ───『 *ᴛᴏᴏʟs* 』─── 🛡️
+  🛡️ .ɴᴏᴡᴀ
+  🛡️ .ϙʀ <ᴛᴇxᴛ>
+  🛡️ .ϙʀᴄᴏᴅᴇ <ᴛᴇxᴛ>
+  🛡️ .sᴛʏʟᴇ <ᴋᴇʏ> <ᴛᴇxᴛ>
+  🛡️ .ᴡᴇᴀᴛʜᴇʀ *<ᴘʟᴀᴄᴇ>*
+  🛡️ .ᴅᴇʜᴀᴢᴇ
+  🛡️ .ʀᴇᴄᴏʟᴏʀ
+  🛡️ .ʜᴅʀ
+  🛡️ .ʟᴇɴɢᴛʜ <ᴀᴍᴏᴜɴᴛ>
+  🛡️ .ᴛɪɴʏᴜʀʟ <ʟɪɴᴋ>
+  🛡️ .sʜᴏʀᴛᴇɴ <ʟɪɴᴋ>
+  🛡️ .ᴛᴇᴍᴘᴍᴀɪʟ
+  🛡️ .sʜᴀᴢᴀᴍ
+  🛡️ .ᴄᴀʟ <ᴇϙᴜᴀᴛɪᴏɴ>
+  🛡️ .ᴄᴀʀʙᴏɴ <ᴄᴏᴅᴇ>
+  🛡️ .ᴅᴇғɪɴᴇ <ᴡᴏʀᴅ>
+  🛡️ .ᴇʟᴇᴍᴇɴᴛ
+  🛡️ .ɢᴏᴏɢʟᴇ
+  🛡️ .ɪᴛᴜɴᴇs
+  🛡️ .ʟʏʀɪᴄs
+  🛡️ .ɪᴍᴅʙ
+  🛡️ .ᴄᴏᴜʀsᴇ
+  🛡️ .ʀᴀɴᴅᴏᴍᴄᴏᴜʀsᴇ
+  🛡️ .ʀᴇᴀᴅᴍᴏʀᴇ <ᴛᴇxᴛ1>|<ᴛᴇxᴛ2>
+  🛡️ .ʀᴇᴀᴅᴠᴏ
+  🛡️ .ʀᴇᴍᴏᴠᴇʙɢ
+  🛡️ .ss <ᴜʀʟ>
+  🛡️ .ssғ <ᴜʀʟ>
+  🛡️ .sᴜʙʀᴇᴅᴅɪᴛ
+  🛡️ .ᴛᴇʟᴇsᴛɪᴄᴋᴇʀ  Ⓛ
+  🛡️ .ᴛᴏᴜʀʟ
+  🛡️ .ᴛʀᴀɴsʟᴀᴛᴇ <ʟᴀɴɢ> <ᴛᴇxᴛ>
+  🛡️ .ᴛʀᴜᴇ
+  🛡️ .ᴛᴛs <ʟᴀɴɢ> <ᴛᴀsᴋ>
+  🛡️ .ᴡᴀ
+  🛡️ .ᴡɪᴋɪᴘᴇᴅɪᴀ
+  ╰━━━━━━━━━━━━━━━━━━━━╯`
   
   let Aimenu = `
-  ✦ ───『 *AI* 』─── ⚝
-  ◈ .bing
-  ◈ .dalle
-  ◈ .chatgpt
-  ◈ .toanime
-  ◈ .gitagpt
-  ◈ .tocartoon
-  ◈ .ai
-  ◈ .bard
-  ◈ .alexa
-  ◈ .bingimg
-  ◈ .gemini
-  ╰──────────⳹
+  🛡️ ───『 *AI* 』─── 🛡️
+  🛡️.ʙɪɴɢ
+  🛡️.ᴅᴀʟʟᴇ
+  🛡️.ɢᴘᴛ
+  🛡️.ᴛᴏᴀɴɪᴍᴇ
+  🛡️.ᴛᴏᴄᴀʀᴛᴏᴏɴ
+  🛡️.ᴀɪ
+  🛡️.ʙᴀʀᴅ
+  🛡️.ᴀʟᴇxᴀ
+  🛡️.ɢᴘᴛ2
+  ╰━━━━━━━━━━━━━━━━╯
   `
   let religionmenu = `
-  ✦ ───『 *religion* 』─── ⚝
-  ◈ .gita [verse_number]
-  ◈ .quran [surah_number|surah_name]
+  ✦ ───『 *ʀᴇʟɪɢɪᴏɴ* 』─── ⚝
+  ◈ .ϙᴜʀᴀɴᴍᴇɴᴜ ғᴏʀ ɢᴇᴛᴛɪɴɢ ɴᴜᴍʙᴇʀ
+  ◈ .ϙᴜʀᴀɴ [sᴜʀᴀʜ_ɴᴜᴍʙᴇʀ|sᴜʀᴀʜ_ɴᴀᴍᴇ]
   ╰──────────⳹`
+
+  let studymenu = `╭━━⊱•🛡️ *sᴛᴜᴅʏᴍᴇɴᴜ* 🛡️•⊱━━╮
+│✫ .ϙᴜʀᴀɴᴍᴇɴᴜ
+│✫ .sᴜʀᴀʜ 36  
+│✫ .ɢᴘᴛ
+│✫ .ɢᴘᴛ2    
+│✫ .ʙɪɴɢ  
+│✫ .ʙᴀʀᴅ 
+│✫ .ϙᴜᴏᴛᴇ  
+│✫ .ᴀɪsᴇᴀʀᴄʜ 
+│✫ .ᴅᴇғɪɴᴇ
+│✫ .ᴇʟᴇᴍᴇɴᴛ
+╰━━━━━━━━━━━━━━━━━━━━━━╯`
   
   let botmenu = `
-  ✦ ───『 *Bot Menu* 』─── ⚝
-  ◈ .ping
-  ◈ .runtime
-  ◈ .script
-  ◈ .server
-  ◈ .blocklist
-  ◈ .alive
-  ◈ .info
-  ◈ .owner
-  ◈ .totalfeature
-  ◈ .list
-  ◈ .messi
-  ◈ .cristianoronaldo
-  ◈ .cr7
-  ◈ .ppcouple
-  ◈ .ppcp
-  ◈ .pinterest
-  ◈ .reg <name.age>
-  ◈ .mysn
-  ◈ .unreg 
-  ╰──────────⳹
+  🛡️ ───『 *Bᴏᴛ Mᴇɴᴜ* 』─── 🛡️
+  🛡️ .ᴘɪɴɢ
+  🛡️ .ʀᴜɴᴛɪᴍᴇ
+  🛡️ .sᴄʀɪᴘᴛ
+  🛡️ .sᴇʀᴠᴇʀ
+  🛡️ .ʙʟᴏᴄᴋʟɪsᴛ
+  🛡️ .ᴀʟɪᴠᴇ
+  🛡️ .ɪɴғᴏ
+  🛡️ .ᴏᴡɴᴇʀ
+  🛡️ .ᴛᴏᴛᴀʟғᴇᴀᴛᴜʀᴇ
+  🛡️ .ʟɪsᴛ
+  🛡️ .ᴄʀɪsᴛɪᴀɴᴏʀᴏɴᴀʟᴅᴏ
+  🛡️ .ᴄʀ7
+  🛡️ .ᴘᴘᴄᴏᴜᴘʟᴇ 
+  🛡️ .ᴘᴘᴄᴘ
+  🛡️ .ᴘɪɴᴛᴇʀᴇsᴛ
+  🛡️ .ᴍʏsɴ
+  ╰━━━━━━━━━━━━━━━━━━━╯
   `
   let pluginmenu = `
-  ✦ ───『 *plugin* 』─── ⚝
-  ◈ .plugins
-  ◈ .install <Gist URL>
+  ✦ ───『 *ᴘʟᴜɢɪɴ* 』─── ⚝
+  ◈ .ᴘʟᴜɢɪɴs
+  ◈ .ɪɴsᴛᴀʟʟ <Gɪsᴛ URL>
   ╰──────────⳹
   `
 
@@ -540,26 +628,24 @@ import {
     
      *${ucpn}* 
 
-    *╭━⊱「Wᴇʟᴄᴏᴍᴇ ᴛᴏ ᴄᴍᴅ ᴍᴇɴᴜ⊱━╮*
-    *│ 📑✫  「 1 𝘉𝘰𝘵𝘮𝘦𝘯𝘶*
-    *│ 👤✫ -「 2 𝘖𝘸𝘯𝘦𝘳𝘮𝘦𝘯𝘶*
-    *│ 👥✫ - 「 3 𝘎𝘢𝘮𝘦𝘮𝘦𝘯𝘶*
-    *│ 💭✫ -「 4 𝘍𝘶𝘯𝘮𝘦𝘯𝘶* 
-    *│ 🎨✫ -「 5 𝘙𝘦𝘢𝘤𝘵𝘪𝘰𝘯 𝘮𝘦𝘯𝘶*
-    *│ 📥✫ -「 6 𝘋𝘰𝘸𝘯𝘭𝘰𝘢𝘥 𝘮𝘦𝘯𝘶*
-    *│ 🖱️✫ -「 7 𝘎𝘢𝘮𝘦 𝘮𝘦𝘯𝘶*
-    *│ 🧬✫ -「 8 𝘓𝘰𝘨𝘰 𝘮𝘦𝘯𝘶*
-    *│ 💌✫ -「 9 𝘚𝘵𝘪𝘤𝘬𝘦𝘳 𝘮𝘦𝘯𝘶*
-    *│ 🎶✫ -「 10 𝘈𝘶𝘥𝘪𝘰 𝘮𝘦𝘯𝘶*
-    *│ 🖼️✫ -「 11 𝘕𝘦𝘸𝘴 𝘮𝘦𝘯𝘶*
-    *│ 🗒️✫ -「 12 𝘌𝘤𝘯𝘰𝘮𝘺 𝘮𝘦𝘯𝘶*
-    *│ 🧛‍♂️✫ -「 13 𝘈𝘯𝘪𝘮𝘦 𝘮𝘦𝘯𝘶*
-    *│ 🥵✫ -「 14 𝘕𝘴𝘧𝘸 𝘮𝘦𝘯𝘶*
-    *│ 🧰✫ -「 15 𝘛𝘰𝘰𝘭 𝘮𝘦𝘯𝘶*
-    *│ 🗂️✫ -「 16 𝘈𝘭 𝘮𝘦𝘯𝘶*
-    *│ 🌍✫ -「 17 𝘙𝘦𝘭𝘪𝘨𝘪𝘰𝘯 𝘮𝘦𝘯𝘶* 
-    *│ 🔗✫ -「 18 𝘗𝘭𝘶𝘨𝘪𝘯 𝘮𝘦𝘯𝘶*                
-    *╰━━━━━━━━━━━━━━━━━━╯*
+     ╭━༻𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹༺⊰━─
+
+
+╭━⊱「Wᴇʟᴄᴏᴍᴇ ᴛᴏ ᴄᴍᴅ ᴍᴇɴᴜ⊱━╮
+│
+│🕋✫ - 「1${usedPrefix}𝘘𝘶𝘳𝘢𝘯𝘮𝘦𝘯𝘶
+│📚✫ - 「2${usedPrefix}𝘚𝘵𝘶𝘥𝘺𝘮𝘦𝘯𝘶
+│🛡️✫ - 「3${usedPrefix}𝘖𝘸𝘯𝘦𝘳𝘮𝘦𝘯𝘶
+│💌✫ - 「4${usedPrefix}𝘉𝘰𝘵𝘮𝘦𝘯𝘶 
+│🧬✫ - 「5${usedPrefix}𝘎𝘳𝘰𝘶𝘱𝘮𝘦𝘯𝘶
+│📥✫ - 「6${usedPrefix}𝘋𝘭𝘮𝘦𝘯𝘶
+│🧰✫ - 「7${usedPrefix}𝘛𝘰𝘰𝘭𝘮𝘦𝘯𝘶
+│🎨✫ - 「8${usedPrefix}𝘚𝘵𝘪𝘤𝘬𝘦𝘳𝘮𝘦𝘯𝘶
+│🎉✫ - 「9${usedPrefix}𝘍𝘶𝘯𝘮𝘦𝘯𝘶 
+│🎮✫ - 「10${usedPrefix}𝘎𝘢𝘮𝘦𝘮𝘦𝘯𝘶
+│🎩✫ - 「11${usedPrefix}𝘓𝘰𝘨𝘰𝘮𝘦𝘯𝘶
+│        *${greeting}*
+╰━━━━━━━━━━━━━━━━━━━━━━╯
     *⏜✩ 𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹 𓃮•:)*                  
 
 *🌸🤭- " 𝐀 𝐅ɑkə 𝐒mıɭə 𝐂ɑη ┣𝐥ıdə  𝐌ıɭɭıoηs 𝐎f 𝐓əɑrs ||%❤😚*
@@ -592,79 +678,50 @@ import {
     const choice = m.text.trim();
     
     if (choice === "1") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
-        caption: botmenu
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/4DUbHJG.jpeg' },
+        caption: quranmenu
       }, { quoted:fcontact });
       } else if (choice === "2") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
-        caption: ownermenu
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/4DUbHJG.jpeg' },
+        caption: studymenu
       }, { quoted:fcontact });
       } else if (choice === "3") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
-        caption: groupmenu
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/4DUbHJG.jpeg' },
+        caption: ownermenu
       }, { quoted:fcontact });
       } else if (choice === "4") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
-        caption: funmenu
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/4DUbHJG.jpeg' },
+        caption: botmenu 
       }, { quoted:fcontact });
       } else if (choice === "5") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
-        caption: reactmenu
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/4DUbHJG.jpeg' },
+        caption: groupmenu
       }, { quoted:fcontact });
       } else if (choice === "6") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/4DUbHJG.jpeg' },
         caption: dlmenu
       }, { quoted:fcontact });
       } else if (choice === "7") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
-        caption: groupmenu
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/4DUbHJG.jpeg' },
+        caption: toolmenu
       }, { quoted:fcontact });
       } else if (choice === "8") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
-        caption: logomenu
-      }, { quoted:fcontact });
-      } else if (choice === "9") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/4DUbHJG.jpeg' },
         caption: stickermenu
       }, { quoted:fcontact });
+      } else if (choice === "9") {
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/4DUbHJG.jpeg' },
+        caption: funmenu
+      }, { quoted:fcontact });
       } else if (choice === "10") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
-        caption: audiomenu
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/4DUbHJG.jpeg' },
+        caption: gamemenu
       }, { quoted:fcontact });
       } else if (choice === "11") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
-        caption: newsmenu
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/4DUbHJG.jpeg' },
+        caption: logomenu
       }, { quoted:fcontact });
-      } else if (choice === "12") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
-        caption: economy
-      }, { quoted:fcontact });
-      } else if (choice === "13") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
-        caption: animemenu
-      }, { quoted:fcontact });
-      } else if (choice === "14") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
-        caption: nsfwmenu
-      }, { quoted:fcontact });
-      } else if (choice === "15") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
-        caption: toolsmenu
-      }, { quoted:fcontact });
-      } else if (choice === "16") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
-        caption: Aimenu
-      }, { quoted:fcontact });
-      } else if (choice === "17") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
-        caption: religionmenu
-      }, { quoted:fcontact });
-      } else if (choice === "18") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
-        caption: pluginmenu
-      }, { quoted:fcontact });
-      } else {
-        m.reply('Invalid choice. Please reply with a valid number.');
+      
       }
   
   };
