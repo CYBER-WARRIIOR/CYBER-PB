@@ -1,9 +1,9 @@
 {
-  "name": "PRINCE-BOT",
-  "description": "Prince MD A WhatsApp User BOT",
-  "logo": "https://telegra.ph/file/d9bcfd1ae673ebd58bd3e.jpg",
+  "name": "CYBER-PB",
+  "description": "CYBER-PB A WhatsApp User BOT",
+  "logo": "https://i.imgur.com/3fabjRt.jpeg",
   "keywords": ["java", "bot", "whatsapp-bot", "whatsapp-automation"],
-  "repository": "https://github.com/PRINCE-GDS/MR-PRINCE-BOT",
+  "repository": "https://github.com/CYBER-WARRIIOR/CYBER-PB,
   
   "stack": "container",
   "env": {
