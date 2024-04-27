@@ -17,7 +17,7 @@ export async function before(m, { conn, isAdmin, isBotAdmin, isOwner, isROwner }
     46: '📹 You missed a group video call, and the call has been missed.'
   }[m.messageStubType];
 
-  // If a message type is found, send a message to the chat.
+  // If a message type  found, send a message to the chat.
   if (messageType) {
     // Send a message mentioning the sender and the message type.
    
