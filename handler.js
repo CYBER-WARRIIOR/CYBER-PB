@@ -167,7 +167,7 @@ export async function handler(chatUpdate) {
                     sticker: false,
                     sWelcome: "",
                     useDocument: false,
-                    viewOnce: false,
+                    viewOnce: true,
                     viewStory: false,
                     welcome: false,
                     chatbot: false
