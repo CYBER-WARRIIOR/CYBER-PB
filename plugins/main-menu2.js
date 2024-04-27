@@ -36,10 +36,10 @@ let greeting = ucapan()
 let quote = quotes[Math.floor(Math.random() * quotes.length)];
 
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
-let str = ` ╭━༻𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹༺⊰━─
+let str = ` *🛡️PЯINCΣ-BOT-MÐ🛡️*
 
 
-╭━⊱「Wᴇʟᴄᴏᴍᴇ ᴛᴏ ᴄᴍᴅ ᴍᴇɴᴜ⊱━╮
+╭━⊱「Wᴇʟᴄᴏᴍᴇ ᴛᴏ ᴄᴏᴍᴍᴀɴᴅs ᴍᴇɴᴜ⊱━╮
 │
 │🕋✫ - 「${usedPrefix}𝘘𝘶𝘳𝘢𝘯𝘮𝘦𝘯𝘶
 │📚✫ - 「${usedPrefix}𝘚𝘵𝘶𝘥𝘺𝘮𝘦𝘯𝘶
@@ -57,31 +57,18 @@ let str = ` ╭━༻𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹༺⊰━�
 │ *${usedPrefix}ʟɪsᴛ ғᴏʀ ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs ʟɪsᴛ*
 │
 │ *${greeting}*
-╰━━━━━━━━━━━━━━━━━━━━━━╯
+╰━━━━━━━━━━━━━━━━━━━━━━━━╯
 📚 *_Quote of the day: ${quote}_* 📚
 `
 
 
-    const { result, key, timeout } = await conn.sendMessage(m.chat, { video: { url: menuvid }, caption: infoText.trim(),  gifPlayback: true,
-  gifAttribution: 0}, { quoted: m})
-  
-  // Save the menu options to gurumenu
-  conn.gurumenu[m.sender] = {
-    result,
-    key,
-    timeout: setTimeout(() => {
-      conn.sendMessage(m.chat, {
-          delete: key
-      });
-      delete conn.gurumenu[m.sender];
-  }, 180 * 1000),
-  };
-  };
+    conn.sendFile(m.chat, pp, 'perfil.jpg', str, m, false)
+    m.react(done)
 
 }
 handler.help = ['main']
 handler.tags = ['group']
-handler.command = ['menu', 'help','h','commands'] 
+handler.command = ['menu3', 'help','h','commands'] 
 
 export default handler
 function clockString(ms) {
