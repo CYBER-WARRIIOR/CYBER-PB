@@ -13,469 +13,330 @@ import {
 
   
    let groupmenu = `
-   ✦ ───『 *group* 』─── ⚝
-  ◈ .getbio <@tag/reply>  Ⓛ
-  ◈ .animequote
-  ◈ .Setdesc <text>
-  ◈ .setname <text>
-  ◈ .add
-  ◈ .delete
-  ◈ .delwarn @user
-  ◈ .demote (@tag)
-  ◈ .infogp
-  ◈ .hidetag
-  ◈ .invite <917xxx>
-  ◈ .kick @user
-  ◈ .link
-  ◈ .poll question|option|option
-  ◈ .profile
-  ◈ .promote
-  ◈ .resetlink
-  ◈ .setbye <text>
-  ◈ .group *open/close*
-  ◈ .setwelcome <text>
-  ◈ .simulate <event> @user
-  ◈ .staff
-  ◈ .tagall
-  ◈ .totag
-  ◈ .warn @user
-  ◈ .warns
-  ◈ .main
+   ✦ ───『 *ɢʀᴏᴜᴘ* 』─── ⚝
+  ◈ .ɢᴇᴛʙɪᴏ <@ᴛᴀɢ/ʀᴇᴘʟʏ>  Ⓛ
+  ◈ .ᴀɴɪᴍᴇϙᴜᴏᴛᴇ
+  ◈ .Sᴇᴛᴅᴇsᴄ <ᴛᴇxᴛ>
+  ◈ .sᴇᴛɴᴀᴍᴇ <ᴛᴇxᴛ>
+  ◈ .ᴀᴅᴅ
+  ◈ .ᴅᴇʟᴇᴛᴇ
+  ◈ .ᴅᴇʟᴡᴀʀɴ @ᴜsᴇʀ
+  ◈ .ᴅᴇᴍᴏᴛᴇ (@ᴛᴀɢ)
+  ◈ .ɪɴғᴏɢᴘ
+  ◈ .ʜɪᴅᴇᴛᴀɢ
+  ◈ .ɪɴᴠɪᴛᴇ <923xxx>
+  ◈ .ᴋɪᴄᴋ @ᴜsᴇʀ
+  ◈ .ʟɪɴᴋ
+  ◈ .ᴘᴏʟʟ ϙᴜᴇsᴛɪᴏɴ|ᴏᴘᴛɪᴏɴ|ᴏᴘᴛɪᴏɴ
+  ◈ .ᴘʀᴏғɪʟᴇ
+  ◈ .ᴘʀᴏᴍᴏᴛᴇ
+  ◈ .ʀᴇsᴇᴛʟɪɴᴋ
+  ◈ .sᴇᴛʙʏᴇ <ᴛᴇxᴛ>
+  ◈ .ɢʀᴏᴜᴘ *ᴏᴘᴇɴ/ᴄʟᴏsᴇ*
+  ◈ .sᴇᴛᴡᴇʟᴄᴏᴍᴇ <ᴛᴇxᴛ>
+  ◈ .sɪᴍᴜʟᴀᴛᴇ <ᴇᴠᴇɴᴛ> @ᴜsᴇʀ
+  ◈ .sᴛᴀғғ
+  ◈ .ᴛᴀɢᴀʟʟ
+  ◈ .ᴛᴏᴛᴀɢ
+  ◈ .ᴡᴀʀɴ @ᴜsᴇʀ
+  ◈ .ᴡᴀʀɴs
+  ◈ .ᴍᴀɪɴ
   ╰──────────⳹`
   
   let ownermenu = `
-  ✦ ───『 *owner* 』─── ⚝
-  ◈ .addprem <@tag>
-  ◈ .addowner @user
-  ◈ .allow <@tag>
+  ✦ ───『 *ᴏᴡɴᴇʀ* 』─── ⚝
+  ◈ .ᴀᴅᴅᴘʀᴇᴍ <@ᴛᴀɢ>
+  ◈ .ᴀᴅᴅᴏᴡɴᴇʀ @ᴜsᴇʀ
+  ◈ .ᴀʟʟᴏᴡ <@ᴛᴀɢ>
   ◈ .HEROKU
-  ◈ .ban @user
-  ◈ .banchat
-  ◈ .tx
-  ◈ .broadcastgroup <text>
-  ◈ .bcgc <text>
-  ◈ .cleartmp
-  ◈ .delexpired
-  ◈ .delprem @user
-  ◈ .removeowner @user
-  ◈ .setppbotfull
-  ◈ .getplugin <name file>
-  ◈ .getfile <name file>
-  ◈ .join <chat.whatsapp.com> <dias>
-  ◈ .reset <54xxx>
-  ◈ .resetprefix
-  ◈ .restart
-  ◈ ..setprefix
-  ◈ ..setprefix [symbol]
-  ◈ .unban @user
-  ◈ .unbanchat
-  ◈ .update
-  ◈ .config
-  ◈ .listban
-  ◈ .deleteplugin <name>
+  ◈ .ʙᴀɴ @ᴜsᴇʀ
+  ◈ .ʙᴀɴᴄʜᴀᴛ
+  ◈ .ᴛx
+  ◈ .ʙʀᴏᴀᴅᴄᴀsᴛɢʀᴏᴜᴘ <ᴛᴇxᴛ>
+  ◈ .ʙᴄɢᴄ <ᴛᴇxᴛ>
+  ◈ .ᴄʟᴇᴀʀᴛᴍᴘ
+  ◈ .ᴅᴇʟᴇxᴘɪʀᴇᴅ
+  ◈ .ᴅᴇʟᴘʀᴇᴍ @ᴜsᴇʀ
+  ◈ .ʀᴇᴍᴏᴠᴇᴏᴡɴᴇʀ @ᴜsᴇʀ
+  ◈ .sᴇᴛᴘᴘʙᴏᴛғᴜʟʟ
+  ◈ .ɢᴇᴛᴘʟᴜɢɪɴ <ɴᴀᴍᴇ ғɪʟᴇ>
+  ◈ .ɢᴇᴛғɪʟᴇ <ɴᴀᴍᴇ ғɪʟᴇ>
+  ◈ .ᴊᴏɪɴ <ᴄʜᴀᴛ.ᴡʜᴀᴛsᴀᴘᴘ.ᴄᴏᴍ> <ᴅɪᴀs>
+  ◈ .ʀᴇsᴇᴛ <54xxx>
+  ◈ .ʀᴇsᴇᴛᴘʀᴇғɪx
+  ◈ .ʀᴇsᴛᴀʀᴛ
+  ◈ ..sᴇᴛᴘʀᴇғɪx
+  ◈ ..sᴇᴛᴘʀᴇғɪx [sʏᴍʙᴏʟ]
+  ◈ .ᴜɴʙᴀɴ @ᴜsᴇʀ
+  ◈ .ᴜɴʙᴀɴᴄʜᴀᴛ
+  ◈ .ᴜᴘᴅᴀᴛᴇ
+  ◈ .ᴄᴏɴғɪɢ
+  ◈ .ʟɪsᴛʙᴀɴ
+  ◈ .ᴅᴇʟᴇᴛᴇᴘʟᴜɢɪɴ <ɴᴀᴍᴇ>
   ╰──────────⳹`
   
   let funmenu = `
-  ✦ ───『 *fun* 』─── ⚝
-  ◈ .afk <reason>
-  ◈ .tomp3
-  ◈ .toav
-  ◈ .bot
-  ◈ .character @tag
-  ◈ .dare
-  ◈ .flirt
-  ◈ .gay @user
-  ◈ .pickupline
-  ◈ .question
-  ◈ .shayari
-  ◈ .ship
-  ◈ .yomamajoke
-  ◈ .truth
-  ◈ .waste @user
-  ◈ .image
-  ◈ .meme
-  ◈ .quote
+  ✦ ───『 *ғᴜɴ* 』─── ⚝
+  ◈ .ᴀғᴋ <ʀᴇᴀsᴏɴ>
+  ◈ .ᴛᴏᴍᴘ3
+  ◈ .ᴛᴏᴀᴠ
+  ◈ .ʙᴏᴛ
+  ◈ .ᴄʜᴀʀᴀᴄᴛᴇʀ @ᴛᴀɢ
+  ◈ .ᴅᴀʀᴇ
+  ◈ .ғʟɪʀᴛ
+  ◈ .ɢᴀʏ @ᴜsᴇʀ
+  ◈ .ᴘɪᴄᴋᴜᴘʟɪɴᴇ
+  ◈ .ϙᴜᴇsᴛɪᴏɴ
+  ◈ .sʜᴀʏᴀʀɪ
+  ◈ .sʜɪᴘ
+  ◈ .ʏᴏᴍᴀᴍᴀᴊᴏᴋᴇ
+  ◈ .ᴛʀᴜᴛʜ
+  ◈ .ᴡᴀsᴛᴇ @ᴜsᴇʀ
+  ◈ .ɪᴍᴀɢᴇ
+  ◈ .ᴍᴇᴍᴇ
+  ◈ .ϙᴜᴏᴛᴇ
   ╰──────────⳹`
   
   let reactmenu = `
-  ✦ ───『 *reaction* 』─── ⚝
-  ◈ .bully @tag
-  ◈ .cuddle @tag
-  ◈ .cry @tag
-  ◈ .hug @tag
-  ◈ .awoo @tag
-  ◈ .kiss @tag
-  ◈ .lick @tag
-  ◈ .pat @tag
-  ◈ .smug @tag
-  ◈ .bonk @tag
-  ◈ .yeet @tag
-  ◈ .blush @tag
-  ◈ .smile @tag
-  ◈ .wave @tag
-  ◈ .highfive @tag
-  ◈ .handhold @tag
-  ◈ .nom @tag
-  ◈ .bite @tag
-  ◈ .glomp @tag
-  ◈ .slap @tag
-  ◈ .kill @tag
-  ◈ .happy @tag
-  ◈ .wink @tag
-  ◈ .poke @tag
-  ◈ .dance @tag
-  ◈ .cringe @tag
+  ✦ ───『 *ʀᴇᴀᴄᴛɪᴏɴ* 』─── ⚝
+  ◈ .ʙᴜʟʟʏ @ᴛᴀɢ
+  ◈ .ᴄᴜᴅᴅʟᴇ @ᴛᴀɢ
+  ◈ .ᴄʀʏ @ᴛᴀɢ
+  ◈ .ʜᴜɢ @ᴛᴀɢ
+  ◈ .ᴀᴡᴏᴏ @ᴛᴀɢ
+  ◈ .ᴋɪss @ᴛᴀɢ
+  ◈ .ʟɪᴄᴋ @ᴛᴀɢ
+  ◈ .ᴘᴀᴛ @ᴛᴀɢ
+  ◈ .sᴍᴜɢ @ᴛᴀɢ
+  ◈ .ʙᴏɴᴋ @ᴛᴀɢ
+  ◈ .ʏᴇᴇᴛ @ᴛᴀɢ
+  ◈ .ʙʟᴜsʜ @ᴛᴀɢ
+  ◈ .sᴍɪʟᴇ @ᴛᴀɢ
+  ◈ .ᴡᴀᴠᴇ @ᴛᴀɢ
+  ◈ .ʜɪɢʜғɪᴠᴇ @ᴛᴀɢ
+  ◈ .ʜᴀɴᴅʜᴏʟᴅ @ᴛᴀɢ
+  ◈ .ɴᴏᴍ @ᴛᴀɢ
+  ◈ .ʙɪᴛᴇ @ᴛᴀɢ
+  ◈ .ɢʟᴏᴍᴘ @ᴛᴀɢ
+  ◈ .sʟᴀᴘ @ᴛᴀɢ
+  ◈ .ᴋɪʟʟ @ᴛᴀɢ
+  ◈ .ʜᴀᴘᴘʏ @ᴛᴀɢ
+  ◈ .ᴡɪɴᴋ @ᴛᴀɢ
+  ◈ .ᴘᴏᴋᴇ @ᴛᴀɢ
+  ◈ .ᴅᴀɴᴄᴇ @ᴛᴀɢ
+  ◈ .ᴄʀɪɴɢᴇ @ᴛᴀɢ
   ╰──────────⳹`
   
   let dlmenu = `
-  ✦ ───『 *downloader* 』─── ⚝
-  ◈ .facebook <url>
-  ◈ .gdrive 🅟
-  ◈ .gitclone <url>
-  ◈ .igstalk
-  ◈ .instagram
-  ◈ .mediafire <url>
-  ◈ .mega
-  ◈ .modapk
-  ◈ .play <query>
-  ◈ .play2 <text>
-  ◈ .playvid <text>
-  ◈ .spotify
-  ◈ .tiktok <url>
-  ◈ .tiktokstalk
-  ◈ .twitter <url>
-  ◈ .ytmp3 <url>
-  ◈ .ytsearch
-  ◈ .ytmp4 <yt-link>
-  ◈ .wallpaper <query>
-  ╰──────────⳹`
+  ✦ ───『 *ᴅᴏᴡɴʟᴏᴀᴅᴇʀ* 』───✫
+  │◈ .ғᴀᴄᴇʙᴏᴏᴋ <ᴜʀʟ>
+  │◈ .ɢᴅʀɪᴠᴇ <ᴜʀʟ>
+  │◈ .ɢɪᴛᴄʟᴏɴᴇ <ᴜʀʟ>
+  │◈ .ɪɢsᴛᴀʟᴋ
+  │◈ .ɪɴsᴛᴀɢʀᴀᴍ
+  │◈ .ᴍᴇᴅɪᴀғɪʀᴇ <ᴜʀʟ>
+  │◈ .ᴍᴇɢᴀ
+  │◈ .ᴍᴏᴅᴀᴘᴋ
+  │◈ .ᴘʟᴀʏ <ϙᴜᴇʀʏ>
+  │◈ .ᴘʟᴀʏʏ <ᴛᴇxᴛ>
+  │◈ .ᴠɪᴅᴇᴏ <ᴛᴇxᴛ>
+  │◈ .ᴛɪᴋᴛᴏᴋ <ᴜʀʟ>
+  │◈ .ᴛɪᴋᴛᴏᴋsᴛᴀʟᴋ
+  │◈ .ᴛᴡɪᴛᴛᴇʀ <ᴜʀʟ>
+  │◈ .ʏᴛᴀ <ᴜʀʟ>
+  │◈ .ʏᴛᴅʟ <ᴜʀʟ>
+  │◈ .ʏᴛᴠ <ᴜʀʟ>
+  │◈ .ʏᴛᴍᴘ3 <ᴜʀʟ>
+  │◈ .ʏᴛsᴇᴀʀᴄʜ <ϙᴜᴇʀʏ>
+  │◈ .ʏᴛᴍᴘ4 <ʏᴛ-ʟɪɴᴋ>
+  │◈ .ᴡᴀʟʟᴘᴀᴘᴇʀ <ϙᴜᴇʀʏ>
+  ╰━━━━━━━━━━━━━━━━━━━━╯`
   
   let gamemenu = `
-  ✦ ───『 *game* 』─── ⚝
-  ◈ .slot <amount>
-  ◈ .chess [from to]
-  ◈ .chess delete
-  ◈ .chess join
-  ◈ .chess start
-  ◈ .delttt
-  ◈ .guessflag
-  ◈ .Maths <modes>
-  ◈ .ppt <rock/paper/scissors>
-  ◈ .tictactoe <tag number>
+  ✦ ───『 *ɢᴀᴍᴇ* 』─── ⚝
+  ◈ .sʟᴏᴛ <ᴀᴍᴏᴜɴᴛ>
+  ◈ .ᴄʜᴇss [ғʀᴏᴍ ᴛᴏ]
+  ◈ .ᴄʜᴇss ᴅᴇʟᴇᴛᴇ
+  ◈ .ᴄʜᴇss ᴊᴏɪɴ
+  ◈ .ᴄʜᴇss sᴛᴀʀᴛ
+  ◈ .ᴅᴇʟᴛᴛᴛ
+  ◈ .ɢᴜᴇssғʟᴀɢ
+  ◈ .Mᴀᴛʜs <ᴍᴏᴅᴇs>
+  ◈ .ᴘᴘᴛ <ʀᴏᴄᴋ/ᴘᴀᴘᴇʀ/sᴄɪssᴏʀs>
+  ◈ .ᴛɪᴄᴛᴀᴄᴛᴏᴇ <ᴛᴀɢ ɴᴜᴍʙᴇʀ>
   ╰──────────⳹`
+
   let logomenu = `
-  ✦ ───『 *maker* 』─── ⚝
-  ◈ .blur
-  ◈ .difuminar2
-  ◈ .hornycard
-  ◈ .hornylicense
-  ◈ .gfx1
-  ◈ .gfx2
-  ◈ .gfx3
-  ◈ .gfx4
-  ◈ .gfx5
-  ◈ .gfx6
-  ◈ .gfx7
-  ◈ .gfx8
-  ◈ .gfx9
-  ◈ .gfx10
-  ◈ .gfx11
-  ◈ .gfx12
-  ◈ .simpcard
-  ◈ .itssostupid
-  ◈ .iss
-  ◈ .stupid
-  ◈ .tweet <comment>
-  ◈ .lolicon
-  ◈ .ytcomment <comment>
+  ✦ ───『 *ᴍᴀᴋᴇʀ* 』─── ⚝
+  ◈ .ʙʟᴜʀ
+  ◈ .ᴅɪғᴜᴍɪɴᴀʀ2
+  ◈ .ʜᴏʀɴʏᴄᴀʀᴅ
+  ◈ .ʜᴏʀɴʏʟɪᴄᴇɴsᴇ
+  ◈ .ɢғx1
+  ◈ .ɢғx2
+  ◈ .ɢғx3
+  ◈ .ɢғx4
+  ◈ .ɢғx5
+  ◈ .ɢғx6
+  ◈ .ɢғx7
+  ◈ .ɢғx8
+  ◈ .ɢғx9
+  ◈ .ɢғx10
+  ◈ .ɢғx11
+  ◈ .ɢғx12
+  ◈ .sɪᴍᴘᴄᴀʀᴅ
+  ◈ .ɪᴛssᴏsᴛᴜᴘɪᴅ
+  ◈ .ɪss
+  ◈ .sᴛᴜᴘɪᴅ
+  ◈ .ᴛᴡᴇᴇᴛ <ᴄᴏᴍᴍᴇɴᴛ>
+  ◈ .ʟᴏʟɪᴄᴏɴ
+  ◈ .ʏᴛᴄᴏᴍᴍᴇɴᴛ <ᴄᴏᴍᴍᴇɴᴛ>
   ╰──────────⳹`
   
   let stickermenu = `
-  ✦ ───『 *sticker* 』─── ⚝
-  ◈ .emojimix <emoji+emoji>
-  ◈ .getsticker
-  ◈ .smaker
-  ◈ .stickerwithmeme (caption|reply media)
-  ◈ .swmeme <url>
-  ◈ .swm(caption|reply media)
-  ◈ .sfull
-  ◈ .toimg <sticker>
-  ◈ .tovid
-  ◈ .trigger <@user>
-  ◈ .ttp
-  ◈ .ttp2
-  ◈ .ttp3
-  ◈ .ttp4
-  ◈ .ttp5
-  ◈ .attp
-  ◈ .attp2
-  ◈ .attp3
-  ◈ .take <name>|<author>
+  🛡️ ───『 *sᴛɪᴄᴋᴇʀ* 』─── 🛡️
+  ◈ .ᴇᴍᴏᴊɪᴍɪx <ᴇᴍᴏᴊɪ+ᴇᴍᴏᴊɪ>
+  ◈ .ɢᴇᴛsᴛɪᴄᴋᴇʀ
+  ◈ .sᴍᴀᴋᴇʀ
+  ◈ .sᴛɪᴄᴋᴇʀᴡɪᴛʜᴍᴇᴍᴇ (ᴄᴀᴘᴛɪᴏɴ|ʀᴇᴘʟʏ ᴍᴇᴅɪᴀ)
+  ◈ .sᴡᴍᴇᴍᴇ <ᴜʀʟ>
+  ◈ .sᴡᴍ(ᴄᴀᴘᴛɪᴏɴ|ʀᴇᴘʟʏ ᴍᴇᴅɪᴀ)
+  ◈ .sғᴜʟʟ
+  ◈ .ᴛᴏɪᴍɢ <sᴛɪᴄᴋᴇʀ>
+  ◈ .ᴛᴏᴠɪᴅ
+  ◈ .ᴛʀɪɢɢᴇʀ <@ᴜsᴇʀ>
+  ◈ .ᴛᴛᴘ
+  ◈ .ᴛᴛᴘ2
+  ◈ .ᴛᴛᴘ3
+  ◈ .ᴛᴛᴘ4
+  ◈ .ᴛᴛᴘ5
+  ◈ .ᴀᴛᴛᴘ
+  ◈ .ᴀᴛᴛᴘ2
+  ◈ .ᴀᴛᴛᴘ3
+  ◈ .ᴛᴀᴋᴇ <ɴᴀᴍᴇ>|<ᴀᴜᴛʜᴏʀ>
   ╰──────────⳹`
   
   let audiomenu = `
-  ✦ ───『 *audio* 』─── ⚝
-  ◈ .bass [vn]
-  ◈ .blown [vn]
-  ◈ .deep [vn]
-  ◈ .earrape [vn]
-  ◈ .fast [vn]
-  ◈ .fat [vn]
-  ◈ .nightcore [vn]
-  ◈ .reverse [vn]
-  ◈ .robot [vn]
-  ◈ .slow [vn]
-  ◈ .smooth [vn]
-  ◈ .tupai [vn]
+  🛡️ ───『 *ᴀᴜᴅɪᴏ* 』─── 🛡️
+  ◈ .ʙᴀss [ᴠɴ]
+  ◈ .ʙʟᴏᴡɴ [ᴠɴ]
+  ◈ .ᴅᴇᴇᴘ [ᴠɴ]
+  ◈ .ᴇᴀʀʀᴀᴘᴇ [ᴠɴ]
+  ◈ .ғᴀsᴛ [ᴠɴ]
+  ◈ .ғᴀᴛ [ᴠɴ]
+  ◈ .ɴɪɢʜᴛᴄᴏʀᴇ [ᴠɴ]
+  ◈ .ʀᴇᴠᴇʀsᴇ [ᴠɴ]
+  ◈ .ʀᴏʙᴏᴛ [ᴠɴ]
+  ◈ .sʟᴏᴡ [ᴠɴ]
+  ◈ .sᴍᴏᴏᴛʜ [ᴠɴ]
+  ◈ .ᴛᴜᴘᴀɪ [ᴠɴ]
   ╰──────────⳹`
   
   
   let newsmenu = `
-  ✦ ───『 *news* 』─── ⚝
-  ◈ .news
-  ◈ .technews
-  ◈ .ndtv
+  ✦ ───『 *ɴᴇᴡs* 』─── ⚝
+  ◈ .ɴᴇᴡs
+  ◈ .ᴛᴇᴄʜɴᴇᴡs
+  ◈ .ɴᴅᴛᴠ
   ╰──────────⳹
   `
-  let economy = `
-  ✦ ───『 *economy* 』─── ⚝
-  ◈ .addgold <@user>
-  ◈ .addxp <@user>
-  ◈ .bank
-  ◈ .buych
-  ◈ .cock-fight <amount>
-  ◈ .buy
-  ◈ .buyall
-  ◈ .daily
-  ◈ .deposit
-  ◈ .gamble <amount> <color(red/black)>
-  ◈ .give credit [amount] [@tag]
-  ◈ .levelup
-  ◈ .rank
-  ◈ .rob
-  ◈ .roulette <amount> <color(red/black)>
-  ◈ .wallet
-  ◈ .withdraw
-  ◈ .work
-  ╰──────────⳹`
-  let animemenu = `
-  ✦ ───『 *anime* 』─── ⚝
-  ◈ .anime
-  ◈ .akira
-  ◈ .akiyama
-  ◈ .anna
-  ◈ .asuna
-  ◈ .ayuzawa
-  ◈ .boruto
-  ◈ .chiho
-  ◈ .chitoge
-  ◈ .deidara
-  ◈ .erza
-  ◈ .elaina
-  ◈ .eba
-  ◈ .emilia
-  ◈ .hestia
-  ◈ .hinata
-  ◈ .inori
-  ◈ .isuzu
-  ◈ .itachi
-  ◈ .itori
-  ◈ .kaga
-  ◈ .kagura
-  ◈ .kaori
-  ◈ .keneki
-  ◈ .kotori
-  ◈ .kurumi
-  ◈ .madara
-  ◈ .mikasa
-  ◈ .miku
-  ◈ .minato
-  ◈ .naruto
-  ◈ .nezuko
-  ◈ .sagiri
-  ◈ .sasuke
-  ◈ .sakura
-  ◈ .manhwa
-  ◈ .waifu
-  ◈ .neko
-  ◈ .zerotwo
-  ◈ .loli
-  ◈ .pokedex <pokemon>
-  ◈ .trace
-  ╰──────────⳹
-  `
-  let nsfwmenu = `
-  ✦ ───『 *nsfw* 』─── ⚝
-  ◈ .genshin
-  ◈ .swimsuit
-  ◈ .schoolswimsuit
-  ◈ .white
-  ◈ .barefoot
-  ◈ .touhou
-  ◈ .gamecg
-  ◈ .hololive
-  ◈ .uncensored
-  ◈ .sunglasses
-  ◈ .glasses
-  ◈ .weapon
-  ◈ .shirtlift
-  ◈ .chain
-  ◈ .fingering
-  ◈ .flatchest
-  ◈ .torncloth
-  ◈ .bondage
-  ◈ .demon
-  ◈ .wet
-  ◈ .pantypull
-  ◈ .headdress
-  ◈ .headphone
-  ◈ .tie
-  ◈ .anusview
-  ◈ .shorts
-  ◈ .stokings
-  ◈ .topless
-  ◈ .beach
-  ◈ .bunnygirl
-  ◈ .bunnyear
-  ◈ .idol
-  ◈ .vampire
-  ◈ .gun
-  ◈ .maid
-  ◈ .bra
-  ◈ .nobra
-  ◈ .bikini
-  ◈ .whitehair
-  ◈ .blonde
-  ◈ .pinkhair
-  ◈ .bed
-  ◈ .ponytail
-  ◈ .nude
-  ◈ .dress
-  ◈ .underwear
-  ◈ .foxgirl
-  ◈ .uniform
-  ◈ .skirt
-  ◈ .sex
-  ◈ .sex2
-  ◈ .sex3
-  ◈ .breast
-  ◈ .twintail
-  ◈ .spreadpussy
-  ◈ .tears
-  ◈ .seethrough
-  ◈ .breasthold
-  ◈ .drunk
-  ◈ .fateseries
-  ◈ .spreadlegs
-  ◈ .openshirt
-  ◈ .headband
-  ◈ .food
-  ◈ .close
-  ◈ .tree
-  ◈ .nipples
-  ◈ .erectnipples
-  ◈ .horns
-  ◈ .greenhair
-  ◈ .wolfgirl
-  ◈ .catgirl
-  ◈ .nsfw
-  ◈ .ass
-  ◈ .boobs
-  ◈ .lesbian
-  ◈ .pussy
-  ◈ .pack
-  ◈ .xvid
-  ◈ .xnxx
-  ╰──────────⳹`
   
   let toolsmenu = `
-  ✦ ───『 *tools* 』─── ⚝
-  ◈ .nowa
-  ◈ .qr <text>
-  ◈ .qrcode <text>
-  ◈ .style <key> <text>
-  ◈ .weather *<place>*
-  ◈ .dehaze
-  ◈ .recolor
-  ◈ .hdr
-  ◈ .length <amount>
-  ◈ .tinyurl <link>
-  ◈ .shorten <link>
-  ◈ .tempmail
-  ◈ .shazam
-  ◈ .cal <equation>
-  ◈ .carbon <code>
-  ◈ .define <word>
-  ◈ .element
-  ◈ .google
-  ◈ .itunes
-  ◈ .lyrics
-  ◈ .imdb
-  ◈ .course
-  ◈ .randomcourse
-  ◈ .readmore <text1>|<text2>
-  ◈ .readvo
-  ◈ .removebg
-  ◈ .ss <url>
-  ◈ .ssf <url>
-  ◈ .subreddit
-  ◈ .telesticker  Ⓛ
-  ◈ .tourl
-  ◈ .translate <lang> <text>
-  ◈ .true
-  ◈ .tts <lang> <task>
-  ◈ .wa
-  ◈ .wikipedia
-  ╰──────────⳹`
+  🛡️ ───『 *ᴛᴏᴏʟs* 』─── 🛡️
+  🛡️ .ɴᴏᴡᴀ
+  🛡️ .ϙʀ <ᴛᴇxᴛ>
+  🛡️ .ϙʀᴄᴏᴅᴇ <ᴛᴇxᴛ>
+  🛡️ .sᴛʏʟᴇ <ᴋᴇʏ> <ᴛᴇxᴛ>
+  🛡️ .ᴡᴇᴀᴛʜᴇʀ *<ᴘʟᴀᴄᴇ>*
+  🛡️ .ᴅᴇʜᴀᴢᴇ
+  🛡️ .ʀᴇᴄᴏʟᴏʀ
+  🛡️ .ʜᴅʀ
+  🛡️ .ʟᴇɴɢᴛʜ <ᴀᴍᴏᴜɴᴛ>
+  🛡️ .ᴛɪɴʏᴜʀʟ <ʟɪɴᴋ>
+  🛡️ .sʜᴏʀᴛᴇɴ <ʟɪɴᴋ>
+  🛡️ .ᴛᴇᴍᴘᴍᴀɪʟ
+  🛡️ .sʜᴀᴢᴀᴍ
+  🛡️ .ᴄᴀʟ <ᴇϙᴜᴀᴛɪᴏɴ>
+  🛡️ .ᴄᴀʀʙᴏɴ <ᴄᴏᴅᴇ>
+  🛡️ .ᴅᴇғɪɴᴇ <ᴡᴏʀᴅ>
+  🛡️ .ᴇʟᴇᴍᴇɴᴛ
+  🛡️ .ɢᴏᴏɢʟᴇ
+  🛡️ .ɪᴛᴜɴᴇs
+  🛡️ .ʟʏʀɪᴄs
+  🛡️ .ɪᴍᴅʙ
+  🛡️ .ᴄᴏᴜʀsᴇ
+  🛡️ .ʀᴀɴᴅᴏᴍᴄᴏᴜʀsᴇ
+  🛡️ .ʀᴇᴀᴅᴍᴏʀᴇ <ᴛᴇxᴛ1>|<ᴛᴇxᴛ2>
+  🛡️ .ʀᴇᴀᴅᴠᴏ
+  🛡️ .ʀᴇᴍᴏᴠᴇʙɢ
+  🛡️ .ss <ᴜʀʟ>
+  🛡️ .ssғ <ᴜʀʟ>
+  🛡️ .sᴜʙʀᴇᴅᴅɪᴛ
+  🛡️ .ᴛᴇʟᴇsᴛɪᴄᴋᴇʀ  Ⓛ
+  🛡️ .ᴛᴏᴜʀʟ
+  🛡️ .ᴛʀᴀɴsʟᴀᴛᴇ <ʟᴀɴɢ> <ᴛᴇxᴛ>
+  🛡️ .ᴛʀᴜᴇ
+  🛡️ .ᴛᴛs <ʟᴀɴɢ> <ᴛᴀsᴋ>
+  🛡️ .ᴡᴀ
+  🛡️ .ᴡɪᴋɪᴘᴇᴅɪᴀ
+  ╰━━━━━━━━━━━━━━━━━━━━╯`
   
   let Aimenu = `
-  ✦ ───『 *AI* 』─── ⚝
-  ◈ .bing
-  ◈ .dalle
-  ◈ .chatgpt
-  ◈ .toanime
-  ◈ .gitagpt
-  ◈ .tocartoon
-  ◈ .ai
-  ◈ .bard
-  ◈ .alexa
-  ◈ .bingimg
-  ◈ .gemini
-  ╰──────────⳹
+  🛡️ ───『 *AI* 』─── 🛡️
+  🛡️.ʙɪɴɢ
+  🛡️.ᴅᴀʟʟᴇ
+  🛡️.ɢᴘᴛ
+  🛡️.ᴛᴏᴀɴɪᴍᴇ
+  🛡️.ᴛᴏᴄᴀʀᴛᴏᴏɴ
+  🛡️.ᴀɪ
+  🛡️.ʙᴀʀᴅ
+  🛡️.ᴀʟᴇxᴀ
+  🛡️.ɢᴘᴛ2
+  ╰━━━━━━━━━━━━━━━━╯
   `
   let religionmenu = `
-  ✦ ───『 *religion* 』─── ⚝
-  ◈ .gita [verse_number]
-  ◈ .quran [surah_number|surah_name]
+  ✦ ───『 *ʀᴇʟɪɢɪᴏɴ* 』─── ⚝
+  ◈ .ϙᴜʀᴀɴᴍᴇɴᴜ ғᴏʀ ɢᴇᴛᴛɪɴɢ ɴᴜᴍʙᴇʀ
+  ◈ .ϙᴜʀᴀɴ [sᴜʀᴀʜ_ɴᴜᴍʙᴇʀ|sᴜʀᴀʜ_ɴᴀᴍᴇ]
   ╰──────────⳹`
+
+  let studymenu = `╭━━⊱•🛡️ *sᴛᴜᴅʏᴍᴇɴᴜ* 🛡️•⊱━━╮
+│✫ .ϙᴜʀᴀɴᴍᴇɴᴜ
+│✫ .sᴜʀᴀʜ 36  
+│✫ .ɢᴘᴛ
+│✫ .ɢᴘᴛ2    
+│✫ .ʙɪɴɢ  
+│✫ .ʙᴀʀᴅ 
+│✫ .ϙᴜᴏᴛᴇ  
+│✫ .ᴀɪsᴇᴀʀᴄʜ 
+│✫ .ᴅᴇғɪɴᴇ
+│✫ .ᴇʟᴇᴍᴇɴᴛ
+╰━━━━━━━━━━━━━━━━━━━━━━╯`
   
   let botmenu = `
-  ✦ ───『 *Bot Menu* 』─── ⚝
-  ◈ .ping
-  ◈ .runtime
-  ◈ .script
-  ◈ .server
-  ◈ .blocklist
-  ◈ .alive
-  ◈ .info
-  ◈ .owner
-  ◈ .totalfeature
-  ◈ .list
-  ◈ .messi
-  ◈ .cristianoronaldo
-  ◈ .cr7
-  ◈ .ppcouple
-  ◈ .ppcp
-  ◈ .pinterest
-  ◈ .reg <name.age>
-  ◈ .mysn
-  ◈ .unreg 
-  ╰──────────⳹
+  🛡️ ───『 *Bᴏᴛ Mᴇɴᴜ* 』─── 🛡️
+  🛡️ .ᴘɪɴɢ
+  🛡️ .ʀᴜɴᴛɪᴍᴇ
+  🛡️ .sᴄʀɪᴘᴛ
+  🛡️ .sᴇʀᴠᴇʀ
+  🛡️ .ʙʟᴏᴄᴋʟɪsᴛ
+  🛡️ .ᴀʟɪᴠᴇ
+  🛡️ .ɪɴғᴏ
+  🛡️ .ᴏᴡɴᴇʀ
+  🛡️ .ᴛᴏᴛᴀʟғᴇᴀᴛᴜʀᴇ
+  🛡️ .ʟɪsᴛ
+  🛡️ .ᴄʀɪsᴛɪᴀɴᴏʀᴏɴᴀʟᴅᴏ
+  🛡️ .ᴄʀ7
+  🛡️ .ᴘᴘᴄᴏᴜᴘʟᴇ 
+  🛡️ .ᴘᴘᴄᴘ
+  🛡️ .ᴘɪɴᴛᴇʀᴇsᴛ
+  🛡️ .ᴍʏsɴ
+  ╰━━━━━━━━━━━━━━━━━━━╯
   `
   let pluginmenu = `
-  ✦ ───『 *plugin* 』─── ⚝
-  ◈ .plugins
-  ◈ .install <Gist URL>
+  ✦ ───『 *ᴘʟᴜɢɪɴ* 』─── ⚝
+  ◈ .ᴘʟᴜɢɪɴs
+  ◈ .ɪɴsᴛᴀʟʟ <Gɪsᴛ URL>
   ╰──────────⳹
   `
 
@@ -536,34 +397,40 @@ import {
    
     global.fcontact = { key: { fromMe: false, participant: `0@s.whatsapp.net`, remoteJid: 'status@broadcast' }, message: { contactMessage: { displayName: `${name}`, vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:${name}\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}}
     const infoText = `
-     ╭━༻𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹༺⊰━─
+   🛡️ ${botname} 🛡️\n
+    Hᴀɪɪɪ ${name}👋🏻
     
-     *${ucpn}* 
+     ${readMore}
 
-   
-╭━⊱「Wᴇʟᴄᴏᴍᴇ ᴛᴏ ᴄᴍᴅ ᴍᴇɴᴜ⊱━╮
-│
-│🕋✫ - 「1${usedPrefix}𝘘𝘶𝘳𝘢𝘯𝘮𝘦𝘯𝘶
-│📚✫ - 「2${usedPrefix}𝘚𝘵𝘶𝘥𝘺𝘮𝘦𝘯𝘶
-│🛡️✫ - 「3${usedPrefix}𝘖𝘸𝘯𝘦𝘳𝘮𝘦𝘯𝘶
-│💌✫ - 「4${usedPrefix}𝘉𝘰𝘵𝘮𝘦𝘯𝘶 
-│🧬✫ - 「5${usedPrefix}𝘎𝘳𝘰𝘶𝘱𝘮𝘦𝘯𝘶
-│📥✫ - 「6${usedPrefix}𝘋𝘭𝘮𝘦𝘯𝘶
-│🧰✫ - 「7${usedPrefix}𝘛𝘰𝘰𝘭𝘮𝘦𝘯𝘶
-│🎨✫ - 「8${usedPrefix}𝘚𝘵𝘪𝘤𝘬𝘦𝘳𝘮𝘦𝘯𝘶
-│🎉✫ - 「9${usedPrefix}𝘍𝘶𝘯𝘮𝘦𝘯𝘶 
-│🎮✫ - 「10${usedPrefix}𝘎𝘢𝘮𝘦𝘮𝘦𝘯𝘶
-│🎩✫ - 「11${usedPrefix}𝘓𝘰𝘨𝘰𝘮𝘦𝘯𝘶
-╰━━━━━━━━━━━━━━━━━━━━━━╯
-    *⏜✩ 𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹 𓃮•:)*                  
+  ╭━━━━⊱⊱『 *INFO*』⊱⊱⊱━━━━━╮ 
+  │ *Rᴇᴘʟʏ ᴡɪᴛʜ ᴛʜᴇ ɴᴜᴍʙᴇʀ*
+  │ *ᴛᴏ ɢᴇᴛ ᴍᴇɴᴜ*
+  ╰───────⳹
 
-*🌸🤭- " 𝐀 𝐅ɑkə 𝐒mıɭə 𝐂ɑη ┣𝐥ıdə  𝐌ıɭɭıoηs 𝐎f 𝐓əɑrs ||%❤😚*
- ` 
+  
+  ╭━━⊱━━⊱⊱「ᴀʟʟ ᴍᴇɴᴜs」⊱⊱━━⊱━╮
+  │✫ -  *1.* ʙᴏᴛ ᴍᴇɴᴜ
+  │✫ -  *2.* ᴏᴡɴᴇʀ ᴍᴇɴᴜ
+  │✫ -  *3.* ɢʀᴏᴜᴘ ᴍᴇɴᴜ
+  │✫ -  *4.* ғᴜɴ ᴍᴇɴᴜ
+  │✫ -  *5.* ʀᴇᴀᴄᴛɪᴏɴ ᴍᴇɴᴜ
+  │✫ -  *6.* ᴅᴏᴡɴʟᴏᴀᴅᴇʀ ᴍᴇɴᴜ
+  │✫ -  *7.* ɢᴀᴍᴇ ᴍᴇɴᴜ
+  │✫ -  *8.* ʟᴏɢᴏ ᴍᴇɴᴜ
+  │✫ -  *9.* sᴛɪᴄᴋᴇʀ ᴍᴇɴᴜ
+  │✫ -  *10.* ᴀᴜᴅɪᴏ ᴍᴇɴᴜ
+  │✫ -  *11.* ɴᴇᴡs ᴍᴇɴᴜ
+  │✫ -  *12.* sᴛᴜᴅʏ ᴍᴇɴᴜ
+  │✫ -  *13.* ᴛᴏᴏʟs ᴍᴇɴᴜ
+  │✫ -  *14.* ᴀɪ ᴍᴇɴᴜ
+  │✫ -  *15.* ʀᴇʟɪɢɪᴏɴ ᴍᴇɴᴜ
+  │✫ -  *16.* ᴘʟᴜɢɪɴ ᴍᴇɴᴜ
+  ╰━━━━━━━━━━━━━━━━━━━━╯`
 ;
 
   
   const { result, key, timeout } = await conn.sendMessage(m.chat, { video: { url: menuvid }, caption: infoText.trim(),  gifPlayback: true,
-  gifAttribution: 0}, { quoted: fcontact })
+  gifAttribution: 0}, { quoted: m})
   
   // Save the menu options to gurumenu
   conn.gurumenu[m.sender] = {
@@ -574,7 +441,7 @@ import {
           delete: key
       });
       delete conn.gurumenu[m.sender];
-  }, 150 * 1000),
+  }, 180 * 1000),
   };
   };
   
@@ -586,88 +453,81 @@ import {
     if (!m.quoted || m.quoted.id !== key.id || !m.text) return;
     const choice = m.text.trim();
     
-    if (choice === "111") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+    if (choice === "1") {
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/4IG2V4q.png' },
         caption: botmenu
-      }, { quoted:fcontact });
-      } else if (choice === "222") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+      }, { quoted: m});
+      } else if (choice === "2") {
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/4IG2V4q.png' },
         caption: ownermenu
-      }, { quoted:fcontact });
-      } else if (choice === "322") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+      }, { quoted: m});
+      } else if (choice === "3") {
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/4IG2V4q.png' },
         caption: groupmenu
-      }, { quoted:fcontact });
-      } else if (choice === "422") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+      }, { quoted: m});
+      } else if (choice === "4") {
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/4IG2V4q.png' },
         caption: funmenu
-      }, { quoted:fcontact });
-      } else if (choice === "522") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+      }, { quoted: m});
+      } else if (choice === "5") {
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/4IG2V4q.png' },
         caption: reactmenu
-      }, { quoted:fcontact });
-      } else if (choice === "622") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+      }, { quoted: m});
+      } else if (choice === "6") {
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/4IG2V4q.png' },
         caption: dlmenu
-      }, { quoted:fcontact });
-      } else if (choice === "227") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+      }, { quoted: m});
+      } else if (choice === "7") {
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/4IG2V4q.png' },
         caption: groupmenu
-      }, { quoted:fcontact });
-      } else if (choice === "822") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+      }, { quoted: m});
+      } else if (choice === "8") {
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/4IG2V4q.png' },
         caption: logomenu
-      }, { quoted:fcontact });
-      } else if (choice === "229") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+      }, { quoted: m});
+      } else if (choice === "9") {
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/4IG2V4q.png' },
         caption: stickermenu
-      }, { quoted:fcontact });
-      } else if (choice === "1330") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+      }, { quoted: m});
+      } else if (choice === "10") {
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/4IG2V4q.png' },
         caption: audiomenu
-      }, { quoted:fcontact });
-      } else if (choice === "1122") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+      }, { quoted: m});
+      } else if (choice === "11") {
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/4IG2V4q.png' },
         caption: newsmenu
-      }, { quoted:fcontact });
-      } else if (choice === "127") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
-        caption: economy
-      }, { quoted:fcontact });
-      } else if (choice === "137") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
-        caption: animemenu
-      }, { quoted:fcontact });
-      } else if (choice === "147") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
-        caption: nsfwmenu
-      }, { quoted:fcontact });
-      } else if (choice === "157") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+      }, { quoted: m});
+      } else if (choice === "12") {
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/4IG2V4q.png' },
+        caption: studymenu
+      }, { quoted: m});
+      } else if (choice === "13") {
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/4IG2V4q.png' },
         caption: toolsmenu
-      }, { quoted:fcontact });
-      } else if (choice === "166") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+      }, { quoted: m});
+      } else if (choice === "14") {
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/4IG2V4q.png' },
         caption: Aimenu
-      }, { quoted:fcontact });
-      } else if (choice === "177") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+      }, { quoted: m});
+      } else if (choice === "15") {
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/2BnfZMp.jpg' },
         caption: religionmenu
-      }, { quoted:fcontact });
-      } else if (choice === "188") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+      }, { quoted: m});
+      } else if (choice === "16") {
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/4IG2V4q.png' },
         caption: pluginmenu
-      }, { quoted:fcontact });
-    }
-     }
+      }, { quoted: m});
+      } else {
+        m.reply('Iɴᴠᴀʟɪᴅ ᴄʜᴏɪᴄᴇ. Pʟᴇᴀsᴇ ʀᴇᴘʟʏ ᴡɪᴛʜ ᴀ ᴠᴀʟɪᴅ ɴᴜᴍʙᴇʀ𒁂.');
+      }
   
   };
   
   
   handler.help = ["play"];
-  handler.tags = ["downloader"];
-  handler.command = /^(menu4)$/i;
-  handler.limit = true;
+  handler.tags = ["main"];
+  handler.command = /^(menu3)$/i;
+  handler.limit = false;
   export default handler;
   
   
@@ -698,7 +558,7 @@ import {
    }
    
    function ucapan() {
-    const time = moment.tz("Asia/Kolkata").format("HH")
+    const time = moment.tz("Asia/Karachi").format("HH")
     let res = "Good morning ☀️"
     if (time >= 4) {
      res = "Good Morning 🌄"
