@@ -276,8 +276,7 @@ let groupmenu = `
    let prems = `${premium > 0 ? "Premium": "Free"}`
    let platform = os.platform()
   
-  
-   let ucpn = `${ucapan()}`
+ 
   
    let _uptime = process.uptime() * 1000
    let _muptime
@@ -317,7 +316,6 @@ let groupmenu = `
 │🎉✫ - 「9${usedPrefix}𝘍𝘶𝘯𝘮𝘦𝘯𝘶 
 │🎮✫ - 「10${usedPrefix}𝘎𝘢𝘮𝘦𝘮𝘦𝘯𝘶
 │🎩✫ - 「11${usedPrefix}𝘓𝘰𝘨𝘰𝘮𝘦𝘯𝘶
-│        *${greeting}*
 ╰━━━━━━━━━━━━━━━━━━━━━━╯
     *⏜✩ 𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹 𓃮•:)*                  
 
