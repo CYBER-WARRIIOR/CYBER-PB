@@ -62,8 +62,8 @@ let str = ` ╭━༻𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹༺⊰━�
 `
 
 
-    conn.sendFile(m.chat, pp, 'perfil.jpg', str, m, false)
-    m.react(done)
+    const { result, key, timeout } = await conn.sendMessage(m.chat, { video: { url: menuvid }, caption: infoText.trim(),  gifPlayback: true,
+  gifAttribution: 0}, { quoted: m})
 
 }
 handler.help = ['main']
