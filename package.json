@@ -1,5 +1,5 @@
 {
-"name": "Prince-MD",
+"name": "CYBER-PB",
 "version": "1.7.0",
 "description": "Super Bot WhatsApp",
 "main": "index.js",
@@ -17,16 +17,16 @@
 "test": "node test.js",
 "test2": "nodemon index.js" },
     
-"homepage": "https://github.com/PRINCE-GDS/MR-PRINCE-BOT",
+"homepage": "https://github.com/CYBER-WARRIIOR/CYBER-PB",
 "author": {
-"name": "MR GDS" },
+"name": "𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹" },
     
 "repository": {
 "type": "git",
-"url": "git+https://github.com/PRINCE-GDS/MR-PRINCE-BOT.git" },
+"url": "git+https://github.com/CYBER-WARRIIOR/CYBER-PB.git" },
 
 "bugs": {
-"url": "https://github.com/PRINCE-GDS/MR-PRINCE-BOT/issues" },
+"url": "https://github.com/CYBER-WARRIIOR/CYBER-PB/issues" },
 "license": "GPL-3.0-or-later",
 "dependencies": {
 "@whiskeysockets/baileys": "^6.5.0",
