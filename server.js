@@ -21,7 +21,7 @@ function connect(conn, PORT) {
         res.end(await toBuffer(_qr))
     })
 
-    // let io = new Socket(server)
+    // let io =. new Socket(server)
     // io.on('connection', socket => {
     //     let { unpipeEmit } = pipeEmit(conn, socket, 'conn-')
     //     socket.on('disconnect', unpipeEmit)
