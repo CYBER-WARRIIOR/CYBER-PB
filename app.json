@@ -3,7 +3,7 @@
   "description": "CYBER-PB A WhatsApp User BOT",
   "logo": "https://i.imgur.com/3fabjRt.jpeg",
   "keywords": ["java", "bot", "whatsapp-bot", "whatsapp-automation"],
-  "repository": "https://github.com/CYBER-WARRIIOR/CYBER-PB"
+  "repository": "https://github.com/CYBER-WARRIIOR/CYBER-PB",
   
   "stack": "container",
   "env": {
